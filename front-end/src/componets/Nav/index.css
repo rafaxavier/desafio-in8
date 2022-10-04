@@ -1,0 +1,144 @@
+/* smartphone */
+@media screen and (max-width:550px) {
+
+    /* Header */
+    .logo {
+        padding-top: 20px;
+        margin: 25px;
+        width: 150px;
+        float: right;
+    }
+
+    /* Hamburger */
+    .oculta-menu {
+        display: none;
+
+
+    }
+
+    .exibe-menu {
+        display: flex;
+    }
+
+    .exibe-menu div {
+        background-color: #29abe2;
+        width: 100%;
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        background-color: #29abe2;
+        padding: 30px;
+        width: 100%;
+
+    }
+
+    .nav-bar a {
+        margin: 10px;
+        color: #fff;
+        text-decoration: none;
+        /* width: 50%; */
+
+    }
+
+    .hamburguer {
+        display: flex;
+        margin: 40px;
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .hamburguer-aberto {
+        display: flex;
+        flex-direction: column;
+        margin: 40px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* tablet */
+@media screen and (min-width:551px) and (max-width:1099px) {
+    .logo {
+        padding-top: 20px;
+        margin: 25px;
+        width: 180px;
+        float: right;
+    }
+
+    /* Hamburger */
+    .oculta-menu {
+        display: none;
+    }
+
+    .exibe-menu {
+        display: flex;
+    }
+
+    .exibe-menu div {
+        background-color: #29abe2;
+        width: 100%;
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        background-color: #29abe2;
+        padding: 30px;
+        width: 100%;
+
+    }
+
+    .nav-bar a {
+        margin: 10px;
+        color: #fff;
+        text-decoration: none;
+        /* width: 50%; */
+
+    }
+
+    .hamburguer {
+        display: flex;
+        margin: 40px;
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .hamburguer-aberto {
+        display: flex;
+        flex-direction: column;
+        margin: 40px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* desktop */
+@media screen and (min-width:1100px) {
+    .logo {
+        width: 220px;
+    }
+
+    .nav-bar a {
+        color: aliceblue;
+        float: left;
+        margin: 20px;
+        font-family: 'RobotoRegular';
+        font-size: 18px;
+        list-style: none;
+    }
+
+    .nav-bar a:hover {
+        color: rgb(180, 189, 197);
+        text-decoration: none;
+
+    }
+
+    /* Hamburger */
+    .hamburguer-aberto {
+        display: none;
+    }
+}
